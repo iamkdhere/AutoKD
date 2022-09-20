@@ -1,0 +1,21 @@
+{
+  "name": "ShatteredKingdomBOT",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "cmd": "node deploy-commands.js"
+  },
+  "keywords": [],
+  "author": "KD",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^1.1.0",
+    "@types/node": "^18.0.6",
+    "config.js": "^0.1.0",
+    "discord.js": "^14.3.0",
+    "node-fetch": "^3.2.6"
+  }
+}
